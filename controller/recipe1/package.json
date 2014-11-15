@@ -1,0 +1,16 @@
+{
+  "name": "recipe1",
+  "version": "0.0.0",
+  "description": "A sample angular test project",
+  "author": "mizuki-y",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.1.0",
+    "karma": "^0.12.25",
+    "karma-phantomjs-launcher": "^0.1.4"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "test": "karma start karma.conf.js --single-run"
+  }
+}
